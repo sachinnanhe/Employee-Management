@@ -61,4 +61,9 @@ public class EmployeeController {
 		
 	}
 	
+	@DeleteMapping("/allemployee")
+	public void deleteAllEmployee() {
+		employeeService.deleteAllEmployee();
+	}
+	
 }
